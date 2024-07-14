@@ -59,11 +59,19 @@ The system is built to handle multiple PDF textbooks, create a semantic understa
    - Offline mode: Uses ChatOllama (Sol model) for generating responses.
    - Provides flexibility in model choice based on connectivity and performance requirements.
 
-10. **User-friendly Interface**: 
+10. **Multiple LLM Support**: 
+    - Integrates multiple language models, allowing users to select and switch between different LLMs as needed.
+    - Provides flexibility to choose the most suitable model for specific queries or tasks.
+
+11. **Model Switching**: 
+    - Enables users to change the language model at any time during the interaction.
+    - Supports dynamic reloading of models without restarting the system.
+
+12. **User-friendly Interface**: 
     - Built with Streamlit for an intuitive and interactive user experience.
     - Offers easy file upload, mode selection, and question input functionalities.
 
-11. **Error Handling and Logging**: 
+13. **Error Handling and Logging**: 
     - Implements robust error handling and logging system for improved reliability and debugging.
     - Enhances system stability and facilitates troubleshooting.
 
